@@ -8,19 +8,8 @@
 </head>
 
 <body>
-<iframe class="fullscreen-video" id="myVideo" src="https://www.yalla-shoots.com/albaplayer/max-1/" name="frame" scrolling="no" frameborder="no" allow="fullscreen" align="center" ></iframe>
-<script>
-  document.addEventListener("DOMContentLoaded", function(){
-    document.body.addEventListener("touchstart", playVideo);
-    function playVideo() {
-        const video = document.getElementById('myVideo');
-        if(video.playing) {
-        } else {
-            video.play();
-        }
-    }
-});
-</script>
+<iframe allowfullscreen='true' frameborder='0' height='500px' scrolling='1' src='https://www.yalla-shoots.com/albaplayer/max-1/' width='100%'></iframe>
+
 </body>
 
 </html>
